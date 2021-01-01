@@ -1,0 +1,131 @@
+body {
+	margin:0;
+	padding:0;
+    font-family: sans-serif;
+    background-color:#000;
+    overflow: hidden;
+}
+
+.table{
+    width: 1000px;
+	height: 650px;
+	background: #fff;
+	top:54%;
+	left: 57%;
+	position: absolute;
+	transform: translate(-50% ,-50%);
+	box-sizing: border-box;
+    padding: 30px 30px;
+    overflow: scroll;
+}
+.box{
+    width: 480px;
+	height: 300px;
+    background: rgb(110, 109, 109);
+    top:40%;
+    left: 27%;
+	position: absolute;
+	transform: translate(-50% ,-50%);
+	box-sizing: border-box;
+    padding: 30px 30px;
+    overflow: scroll;
+}
+.box1{
+    width: 480px;
+	height: 300px;
+    background: rgb(110, 109, 109);
+    top:40%;
+    left: 77%;
+	position: absolute;
+	transform: translate(-50% ,-50%);
+	box-sizing: border-box;
+    padding: 30px 30px;
+    overflow: scroll;
+}
+h1{
+    margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+    font-size: 38px;
+    color: #009879;
+}
+h3{
+    margin-left: 35%;
+}
+.table section div{
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    
+    color: #444;
+    
+}
+.content-table{
+    border-collapse: collapse;
+    margin: 5px 0;
+    margin-left: 1px;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+
+}
+.content-table thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-last-of-type(even){
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+input[type="submit"] {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+input[type="submit"]:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+input[type="submit"]:active {
+	position:relative;
+	top:1px;
+}
+input[type="submit"]:active {
+	position:relative;
+	top:1px;
+}
+input[type="text"] {
+    width: 32%;
+    margin-bottom: 20px;
+    margin-left: 34%;
+}
+input[type="text"] {
+    background: transparent;
+    height: 30px;
+    color: #000;
+    font-size: 16px;
+}
